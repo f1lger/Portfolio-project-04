@@ -4,6 +4,11 @@
   | default @import url()
   |============================
 */
+
+@import url('node_modules/modern-normalize/modern-normalize.css');
+@import url('accordion-js/dist/accordion.min.css');
+@import url('swiper/css/bundle');
+
 @import url('./reset.css');
 @import url('./header.css');
 @import url('./hero.css');
@@ -16,3 +21,30 @@
 @import url('./work-together.css');
 
 
+@font-face {
+  font-family: 'Inter Tight';
+  src: url('../fonts/InterTight-Medium.ttf');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter Tight';
+  src: url('../fonts/InterTight-SemiBold.ttf');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: "Inter Tight", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  background-color: inherit;
+}
+
+.container {
+  margin: 0 16px;
+}
